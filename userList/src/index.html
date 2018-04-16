@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>UserList</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+<body>
+  <app-root></app-root>
+
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyChstIBHuuzT5OIECskyD7MA9z-srgG4FM",
+      authDomain: "my-project-1517044609578.firebaseapp.com",
+      databaseURL: "https://my-project-1517044609578.firebaseio.com",
+      projectId: "my-project-1517044609578",
+      storageBucket: "",
+      messagingSenderId: "309227040445"
+    };
+    firebase.initializeApp(config);
+  </script>
+<script src="./app/database/database.js"></script>
+</body>
+
+</html>
